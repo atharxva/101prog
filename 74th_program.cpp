@@ -1,5 +1,5 @@
 #include <iostream>
-#include <cmath>
+//#include <cmath>
 using namespace std;
 
 // Function to check if a number is prime.
