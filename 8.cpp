@@ -1,4 +1,5 @@
-// Write a program that checks if a number is a perfect number.
+// Implement a program to find the roots of a quadratic equation.
+
 #include<iostream>
 using namespace std;
 int main() {
