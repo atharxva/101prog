@@ -3,22 +3,22 @@
 
 #include <iostream>
 using namespace std;
+int main()
+{
+    int n;
+    cout << "Enter rows";
+    cin >> n;
 
-int main() {
-
-    int rows;
-
-    cout << "Enter number of rows: ";
-    cin >> rows;
-    //taking the inputs from the user
-
-    for(int i = 1; i <= rows; ++i) 
+    for (int i = 1; i <= n; i++)
     {
-        for(int j = 1; j <= i; ++j)
+        for (int k = n - i; k > 0; k--)
+        {
+            cout << " ";
+        }
+        for (int j = 1; j <= i; j++)
         {
             cout << "* ";
         }
-        cout << "\n";
+        cout << endl;
     }
-    return 0;
 }
